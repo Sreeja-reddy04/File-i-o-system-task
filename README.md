@@ -23,7 +23,7 @@ module even_parity;
     end
     $fclose(infile);
     $fclose(outfile);
-    $display("✅ Simulation complete - Parity bits written to data_out.txt");
+    $display("Simulation complete - Parity bits written to data_out.txt");
     $finish;
   end
 endmodule
